@@ -48,6 +48,7 @@ document.title = "JavaScript Project";
         else {
             output.value = eval(output.value);
         }
+        dec = output.value.includes('.');
     }
 
 
@@ -55,7 +56,6 @@ document.title = "JavaScript Project";
         cOutput('black');
         output.value = "";
     }
-
 
 
     function btnMaker(txt, myFunction) {
